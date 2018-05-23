@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="badge_1">Введіть текст:</string>
+    <string name="badge_2">Введіть текст:</string>
+</resources>
