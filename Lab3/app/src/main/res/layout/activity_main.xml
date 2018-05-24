@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.example.alex323glo.lab3.MainActivity">
+
+    <TextView
+            android:text="@string/badge_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/txt_text"/>
+    <TextView
+            android:text="@string/badge_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/txt_font_size"/>
+    <Button
+            android:id="@+id/ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/btn_ok"/>
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="24dp"/>
+    <Button
+            android:id="@+id/load"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_load"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="311dp" android:id="@+id/txt_out"/>
+
+</LinearLayout>

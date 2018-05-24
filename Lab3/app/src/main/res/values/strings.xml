@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab3</string>
+    <string name="badge_1">Введіть текст:</string>
+    <string name="badge_2">Введіть розмір тексту:</string>
+    <string name="btn_ok">Підтвердити</string>
+    <string name="btn_load">Завантажити</string>
+    <string name="secondary_btn_back">Повернутися</string>
+    <string name="secondary_badge1">Історія вводу:</string>
+</resources>

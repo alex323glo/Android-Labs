@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.example.alex323glo.lab3.SecondaryActivity">
+
+    <Button
+            android:id="@+id/secondary_back"
+            android:text="@string/secondary_btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:text="@string/secondary_badge1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textSize="24sp"/>
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="19dp"/>
+    <TextView
+            android:id="@+id/secondary_txt_list"
+            android:layout_width="match_parent"
+            android:layout_height="389dp" android:overScrollMode="ifContentScrolls"
+            android:verticalScrollbarPosition="defaultPosition"/>
+
+</LinearLayout>
